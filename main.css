@@ -1,9 +1,9 @@
 @charset 'UTF-8'; 
 
 :root {
-	--FG:255, 256, 255;
-	--BG:30, 28, 27;
-	--HL:63, 154, 44;
+	--FG:50, 0, 12;
+	--BG:230, 230, 230;
+	--HL:226, 154, 44;
 	--PAGE_WIDTH:960px;
 	--BIG:32px;
 	--MED:16px;
@@ -66,6 +66,7 @@ header {
 }
 
 main {
+
 	padding-top: var(--SML);
 	padding-bottom: var(--SML);
 	padding-left: var(--MED);
@@ -93,8 +94,40 @@ main ol {
 	margin: var(--MED) var(--BIG);
 }
 
+html {
+	background-color: rgb(var(--BG));
 
+}
 
+body {
+	color: rgb(var(--FG));
+	background-color: rgb(var(--BG));
+}
+
+header {
+	background-color: rgba(var(--HL), 0.2);
+}
+
+a {
+	text-decoration: none;
+	color: rgba(var(--HL));
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 12pt;
+	font-weight: 300;
+	line-height: 1.35;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: serif;
+}
 
 
 
