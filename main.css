@@ -12,6 +12,14 @@
 	--TNY:2px;
 }
 
+@font-face {
+  font-family: "Playfair Display";
+  src: url("PlayfairDisplay-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 * {
 	margin: 0;
@@ -39,6 +47,11 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+header h1 {
+	font-family: "Playfair Display", serif;
+	font-weight: 900;
 }
 
 header h1,
