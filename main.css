@@ -37,6 +37,7 @@
 
 html {
 	min-height: 100%;
+	background-color: rgb(var(--BG));
 }
 
 body {
@@ -47,6 +48,10 @@ body {
 	display:flex;
 	flex-direction: column;
 	justify-content: space-between;
+	color: rgb(var(--FG));
+	background-color: rgb(var(--BG));
+  font-size: 12pt;
+  line-height: 1.5;
 }
 
 
@@ -54,40 +59,26 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: rgba(var(--HL), 0.2);
+    padding-top: var(--SML);
+	  padding-bottom: var(--SML);
 }
 
 header h1 {
-	font-family: "Playfair Display", serif;
-	font-weight: 900;
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
 }
 
 header h1,
 header nav {
 	align-self: center;
-}
-
-header nav {
 	display: flex;
 	column-gap: 1em;
 }
 
+
 main {
 	flex-grow: 1;
-}
-
-footer {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-
-header {
-	padding-top: var(--SML);
-	padding-bottom: var(--SML);
-}
-
-main {
-
 	padding-top: var(--SML);
 	padding-bottom: var(--SML);
 	padding-left: var(--MED);
@@ -95,6 +86,9 @@ main {
 }
 
 footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	padding-top: var(--QRT);
 	padding-bottom: var(--QRT);
 	padding-left: var(--MED);
@@ -115,41 +109,12 @@ main ol {
 	margin: var(--MED) var(--BIG);
 }
 
-html {
-	background-color: rgb(var(--BG));
-
-}
-
-body {
-	color: rgb(var(--FG));
-	background-color: rgb(var(--BG));
-}
-
-header {
-	background-color: rgba(var(--HL), 0.2);
-}
 
 a {
 	text-decoration: none;
 	color: rgb(var(--HL));
 }
 
-body {
-  font-family: "Playfair Display", serif;
-  font-size: 12pt;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Playfair Display", serif;
-  font-weight: 900;
-}
 
 
 
