@@ -84,6 +84,11 @@ main {
 	padding-left: var(--MED);
 	padding-right:var(--MED) ;
 }
+main canvas {
+	border: 1px solid red;
+	width: 100%;
+	height: 100%;
+}
 
 footer {
 	display: flex;
@@ -115,9 +120,10 @@ a {
 	color: rgb(var(--HL));
 }
 
-
-
-
-
-
-
+.game-deck {
+    display: block;
+    width: 120px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
