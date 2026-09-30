@@ -119,11 +119,3 @@ a {
 	text-decoration: none;
 	color: rgb(var(--HL));
 }
-
-.game-deck {
-    display: block;
-    width: 120px;
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-}
