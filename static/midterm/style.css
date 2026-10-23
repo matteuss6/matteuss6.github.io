@@ -202,3 +202,44 @@ footer h3 {
   letter-spacing: 2px;
   margin-bottom: 8px;
 }
+.title-page {
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.book-label {
+  font-family: "Cormorant Upright", Georgia, serif;
+  font-size: 20px;
+  font-variant: small-caps;
+  letter-spacing: 3px;
+  margin-bottom: 18px;
+}
+
+.title-page h1 {
+  line-height: 1.15;
+  margin: 0 0 18px;
+}
+
+.book-author {
+  font-family: "Cormorant Upright", Georgia, serif;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 0 28px;
+}
+
+.title-portrait {
+  display: block;
+  width: 250px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border: 1px solid var(--gold);
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+.title-ornament {
+  font-size: 36px;
+  margin-top: 25px;
+}
