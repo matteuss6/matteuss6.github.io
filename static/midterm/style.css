@@ -1,0 +1,204 @@
+:root {
+  --paper: #e6d5a8;
+  --ink: #241c12;
+  --red: #241c12;
+  --gold: #9b8357;
+}
+
+
+@font-face {
+  font-family: "EB Garamond Initials";
+  src: url("fonts/eb-garamond.initials.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Courgette";
+  src: url("fonts/Courgette/Courgette-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+body {
+  margin: 0;
+  padding: 40px 20px;
+  color: var(--ink);
+  font-family: Georgia, serif;
+  font-weight: 400;
+
+  background-color: var(--paper);
+}
+
+article {
+  max-width: 680px;
+  margin: auto;
+  padding: 60px;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--red);
+}
+
+h1 {
+  font-family: "Cormorant Upright", Georgia, serif;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 1.05;
+  margin: 20px 0;
+}
+
+
+section {
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: left;
+  hyphens: auto;
+}
+
+
+footer {
+  margin-top: 60px;
+  padding-top: 25px;
+  border-top: 1px solid var(--gold);
+}
+
+
+h3 {
+  font-size: 24px;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 12px;
+  }
+
+  article {
+    padding: 30px 22px;
+  }
+
+  h1 {
+    font-size: 42px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+}
+
+section > p:first-of-type::first-letter {
+  float: left;
+  font-family: "EB Garamond Initials", Georgia, serif;
+  font-size: 90px;
+  font-weight: 400;
+  line-height: 1;
+  margin-right: 10px;
+  color: var(--ink);
+}
+section h2 {
+  font-family: "Courgette", cursive;
+  font-weight: 400;
+}
+
+.story-image {
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  margin: 40px auto;
+}
+
+.author-picture {
+  margin: 40px 0;
+}
+
+.author-picture .story-image {
+  margin: 0 auto 12px;
+}
+
+.author-picture figcaption {
+  text-align: center;
+}
+
+.chapter-picture {
+  margin: 40px 0;
+}
+
+.chapter-picture .story-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto 12px;
+}
+
+.chapter-picture figcaption {
+  line-height: 1.5;
+  text-align: center;
+}
+
+.story-ending {
+  margin-top: 50px;
+}
+
+section p,
+.introduction p,
+.story-context {
+  font-family: "Cormorant Upright", Georgia, serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  hyphens: none;
+}
+
+.author-picture figcaption,
+.chapter-picture figcaption {
+  font-family: "Cormorant Upright", Georgia, serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+footer p,
+footer li {
+  font-family: "Cormorant Upright", Georgia, serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.story-ending h2,
+footer h2,
+footer h3 {
+  font-family: "Cormorant Upright", Georgia, serif;
+  font-weight: 700;
+}
+.ornament {
+  text-align: center;
+  font-size: 36px;
+  color: var(--ink);
+  margin: 35px 0;
+}
+.chapter-label {
+  font-family: "Cormorant Upright", Georgia, serif;
+  font-variant: small-caps;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}

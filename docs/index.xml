@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Matteuss</title>
+		<link>https://matteuss6.github.io/</link>
+		<description>Recent content on Matteuss</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="https://matteuss6.github.io/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Colophon | Matteuss</title>
+				<link>https://matteuss6.github.io/colophon/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://matteuss6.github.io/colophon/</guid>
+				<description>&lt;h2&gt;About me&lt;/h2&gt;&#xA;        &lt;p&gt;&#xA;            This website is where I share what I&#39;m learning and a little of life outside the classroom.&#xA;        &lt;/p&gt;&#xA;        &lt;hr&gt;&#xA;        &lt;h2&gt;About my website&lt;/h2&gt;&#xA;        &lt;p&gt;&#xA;            I created this website for my Web Programming class. Dr. Tashfeen gave us creative freedom, so I brought a little Clash Royale inspiration to it.&#xA;        &lt;/p&gt;&#xA;        &lt;p&gt;&#xA;            I build the pages with HTML and CSS, manage the files through GitHub, and publish the site with GitHub Pages. The design uses Playfair Display headings, a light gray background, deep burgundy text, and gold accents. Each revision is a chance to practice what I&#39;m learning.&#xA;        &lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>My Favorite Mobile Game | Matteuss</title>
+				<link>https://matteuss6.github.io/posts/first-post.html</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://matteuss6.github.io/posts/first-post.html</guid>
+				<description>&lt;h2&gt;How I Started&lt;/h2&gt;&#xA;        &lt;p&gt;&#xA;            I started played Clash royale around 8 years ago. It was just normal game back then when no one played it. I just wanted to do same thing what my friends did. Around 2 years ago I created new account so i can re-start it from 0. Since then Clash been on it&#39;s peak and I am playing whenever i am bored and trying to kill time.&#xA;        &lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

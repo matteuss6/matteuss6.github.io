@@ -1,0 +1,7 @@
+baseURL = 'https://matteuss6.github.io/'
+locale = 'en-us'
+title = 'Matteuss'
+disableKinds = ['taxonomy', 'term']
+
+[security]
+  allowContent = ['^text/(html|markdown)$']

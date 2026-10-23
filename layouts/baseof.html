@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
+  <link rel="stylesheet" href="{{ "main.css" | relURL }}">
+  <title>{{ .Title }}</title>
+</head>
+<body>
+  <header>
+    <h1 class="royale-title">{{ .Params.heading | default .Title }}</h1>
+    <nav>
+      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ "/posts/first-post.html" | relURL }}">Post</a>
+      <a href="{{ "/colophon/" | relURL }}">Colophon</a>
+    </nav>
+  </header>
+  <main>{{ block "main" . }}{{ .Content }}{{ end }}</main>
+  <footer>
+    {{ if eq .RelPermalink "/colophon/" }}
+    <p><a href="https://github.com/matteuss6">Explore my GitHub</a></p>
+    <a href="{{ "/" | relURL }}">Back to home</a>
+    {{ else }}
+    <p>Visit my <a href="https://github.com/matteuss6">GitHub profile</a>.</p>
+    <p>Created by Matteuss.</p>
+    {{ if .IsHome }}<span>LinkedIn coming soon.</span>{{ end }}
+    {{ end }}
+  </footer>
+</body>
+</html>
